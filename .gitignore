@@ -127,6 +127,7 @@ dmypy.json
 
 *.pdf
 *.txt
+!requirements.txt
 *.wav
 
 # Pyre type checker
