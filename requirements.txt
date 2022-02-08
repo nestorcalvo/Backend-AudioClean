@@ -24,7 +24,7 @@ matplotlib==3.3.4
 networkx==2.5
 numba>=0.53.0
 numpy==1.20.1
-opencv-python==4.5.1.48
+opencv-python>=4.5.1
 packaging==20.9
 Pillow==8.3.2
 pip-upgrader==1.4.15
@@ -41,7 +41,7 @@ requests==2.25.1
 resampy==0.2.2
 scikit-image==0.18.1
 scikit-learn==0.24.1
-scipy==1.6.1
+scipy>=1.6.1
 six==1.15.0
 SoundFile==0.10.3.post1
 sqlparse==0.4.2
