@@ -8,7 +8,7 @@ Source code of the AudioClean backend
 
 * The backend runs by default in the localhost using the port 8000, this is to ensure a correct communication between the frontend and the backend.
 
-* In order to correctly create a segment this must have a duration greater than 25 ms.
+* In order to correctly create an audio segment this must have a duration greater than 25 ms.
 
 * The backend uses a model called "orca-clean.pk" that needs to be stored in the path ..\Backend AudioClean\controller\ORCA_CLEAN, this model can be requested to Christian Bergler author of ORCA-CLEAN: A Deep Denoising Toolkit for Killer Whale Communication (https://www.isca-speech.org/archive/Interspeech_2020/abstracts/1316.html)
 
