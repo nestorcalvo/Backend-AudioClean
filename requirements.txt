@@ -51,5 +51,5 @@ threadpoolctl==2.1.0
 tifffile==2021.2.26
 torch==1.7.1
 typing-extensions==3.7.4.3
-urllib3==1.26.3
+urllib3==1.26.5
 wincertstore==0.2
