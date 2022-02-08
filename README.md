@@ -4,6 +4,8 @@ Source code of the AudioClean backend
 
 ## Important notes
 
+* Runs in Python 3.8 because PyTorch doesn't have a build for 3.9 and somethimes raises errors when the package is installing.
+
 * The backend runs by default in the localhost using the port 8000, this is to ensure a correct communication between the frontend and the backend.
 
 * In order to correctly create a segment this must have a duration greater than 25 ms.
@@ -26,7 +28,11 @@ Source code of the AudioClean backend
 
 ### Installing
 
-* First, the packages needs to be installed (create a new enviroment is the best to avoid issues in the installation of the packages), then run:
+Create a new enviroment is the best to avoid issues in the installation of the packages
+```
+conda create --no-default-packages -n NAME_OF_THE_ENV python
+```
+* After the creation of the enviroment, the packages needs to be installed, then run:
 ```
 pip install -r requirements.txt
 ```
@@ -35,9 +41,8 @@ pip install -r requirements.txt
 
 In the folder ..\Backend AudioClean\controller run the server using the file [manage.py](https://github.com/nestorcalvo/Backend-AudioClean/blob/master/controller/manage.py),
 by default the server will run in the port 8000
-
 ```
-python manage.py runserver
+python manage.py makemigrations && python manage.py migrate && python manage.py runserver 
 ```
 
 Once the backend is running, start the frontend.
