@@ -32,7 +32,11 @@ Create a new enviroment is the best to avoid issues in the installation of the p
 ```
 conda create --no-default-packages -n NAME_OF_THE_ENV python
 ```
-* After the creation of the enviroment, the packages needs to be installed, then run:
+Then activate the enviroment
+```
+conda activate NAME_OF_THE_ENV
+```
+* After the creation and activation of the enviroment, the packages needs to be installed
 ```
 pip install -r requirements.txt
 ```
